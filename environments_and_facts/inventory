@@ -1,0 +1,14 @@
+[centos]
+188.166.64.47
+
+[centos:vars]
+ansible_user=root
+ssh_private_key_file=~/.ssh/id_rsa_fof
+
+[ubuntu]
+188.166.67.63
+
+[ubuntu:vars]
+ansible_user=root
+ssh_private_key_file=~/.ssh/id_rsa_fof
+
